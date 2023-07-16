@@ -4,17 +4,104 @@
         <meta charset="utf=8" />
         <meta name="keywords" content="graphic_design, Photoshop, Tutorial, Blabensolutions" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" href="images/Phonehub_Logo.png">
+        <link rel="icon" type="image/png" size="32x32" href="images/colorlogo.png">
+        <link rel="stylesheet" href="style.css">
 
         <title>Register an Account</title>
     </head>
 
     <body>
-        <form class="form-wrapper">
-            <div class="left-item">
-                <h2>Sign Up</h2>
-                <p>to use all the features of the application</p>
+        <div >
+            <img class="banner" src="images/LMSbanner1.jpg" alt="head banner of oxfordsite">
+        </div>
+        <div class="reg-head">
+            <h2>Register Here</h2>
+            <p class="reg-para">We welcome you to a family you can call your own</p>
+        </div>
+
+        <form>
+            <div class="form-wrapper">
+                <img class="main-img" src="images/ladyvertical.jpg" alt=" A lady smilling in the library">
+
+            <div class="right-form">
+
+                <label for="firstname">First Name</label><br />
+                <input type="text" name="firstname" id="fname" required/><br />
+
+                <label for="lastname">Last Name</label><br />
+                <input type="text" name="lastname" id="lname" required/><br />
+
+                <label for="dob">Date of Birth</label><br />
+                <input type="date" name="dateofbirth" id="dob" required/><br />
+
+                <label for="email">Email</label><br />
+                <input type="email" name="email" id="email" required /><br />
+
+                <label for="gender">Select your Gender</label>
+                <select id="gender" required>
+                  <option value=""></option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+
+                <label for="present-address">Present Address:</label>
+                <input id="present-address" required></input><br>
+            
+                <label for="street-address">Street Address:</label>
+                <input type="text" id="street-address" required><br>
+
+                <label>Select your desired programm</label><br />
+                <select name="courses" id="course" required>
+                    <option value=""></option>
+                    <option value="">Hardware Enginering</option>
+                    <option value="">Software Enginering</option>
+                    <option value="">Database</option>
+                    <option value="">Data Analysis</option>
+                    <option value="">Data Science</option>
+                    <option value="">Copywriting</option>
+                    <option value="">Graphic Design</option>
+                    <option value="">Product Design</option>
+                    <option value="">Web Development</option>
+                    <option value="">SEO Optimization</option>
+                </select>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+            
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+
+                <button class="reg-btn">Register</button>
             </div>
+            
+        </div>
         </form>
+
+        <script src="script.js"></script>
+
     </body>
+
+    
+    <footer class="reg-footer">
+            <div class="first-footer">
+                    <p>Subscribe to our maillist today</p>
+                    <input type="email" name="subscribe" id="mail-sub" class="sub-input" />
+            </div>
+
+            <div class="second-footer">
+                <div class="left-items">
+                    <ul>
+                        <li><a href="">Schorlaship | &nbsp;</a></li>
+                        <li><a href="">Characcter | &nbsp;</a></li>
+                        <li><a href="">Leadership | &nbsp;</a></li>
+                        <li><a href="">Servanhood | &nbsp;</a></li>
+                        <li><a href="">Discipline</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="copy-footer">&copy;2023 Copyright Reserved | This is powered by Blabensolutions Inc</p>
+                </div>
+            </div>
+    </footer>
 </html>

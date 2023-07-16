@@ -1,0 +1,133 @@
+body{
+    margin: 0% 5% 0% 5%;
+    font-family: 'poppins';
+}
+
+/* Registration Page styling */
+.banner{
+    width: 100%;
+}
+
+.reg-head{
+    text-align: center; 
+    border-bottom: 2px solid #e21012;
+    padding-bottom: 20px;
+}
+
+h2{
+    margin:0px;
+    padding-top: 50px;
+    font-size: 3rem;
+    color: #03016c;
+}
+
+.reg-para{
+    color: #e21012;
+    margin: 0px;
+    border-width:medium;
+    font-size: 1.3em;
+}
+
+.form-wrapper{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    border-radius: 20px;
+    /* gap: 1.5em; */
+    align-items: center;
+}
+
+
+.main-img{
+    width: 50%;
+    height: auto;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.right-form{
+    width: 50%;
+    padding: 50px;
+}
+
+input, select{
+    font-family: 'poppins';
+    font-size: 15px;
+    border:none;
+    background-color: none;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    padding-top:10px;
+    margin-bottom: 10px;
+}
+
+label{
+    color: #03016c;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.reg-btn{
+    background-color: #03016c;
+    font-family: 'poppins';
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+    cursor: pointer;
+}
+
+.reg-btn:hover{
+    border: 2px solid #03016c;
+    color: #03016c;
+    background-color: transparent;
+}
+
+
+footer{
+   max-width: 120%;
+}
+
+.first-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.copy-footer{
+    color: grey;
+    font-size: 12px;
+}
+
+.sub-input{
+    width: 40%;
+    border: 2px solid #03016c;
+}
+
+.second-footer{
+    gap: 30em;
+    text-align:  center;
+}
+
+
+.left-items ul{
+    display: inline-flex;
+    list-style-type: none;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+
+
+ul li a{
+    text-decoration: none;
+    color: #03016c;
+    word-spacing: 2em;
+}
+
+ul li a:hover{
+    color: #e21012;
+}
