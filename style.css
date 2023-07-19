@@ -93,7 +93,7 @@ footer{
    max-width: 120%;
    margin: 0px;
    background-color:rgba(255, 228, 196, 0.7);
-   padding: 20px 0px 20px 0px;
+   padding: 40px 0px 20px 0px;
 }
 
 .first-footer{
@@ -110,7 +110,10 @@ footer{
 .sub-input{
     width: 40%;
     border: 2px solid #03016c;
+    background-color: transparent ;
+    padding: 10px;
 }
+
 
 .second-footer{
     gap: 30em;
@@ -121,8 +124,10 @@ footer{
 .left-items ul{
     display: inline-flex;
     list-style-type: none;
-    background-color: antiquewhite;
+    background-color: transparent;
     padding: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 
