@@ -110,8 +110,10 @@ footer{
 .sub-input{
     width: 40%;
     border: 2px solid #03016c;
+    border-radius: 5px;
     background-color: transparent ;
     padding: 10px;
+    margin: 0px;
 }
 
 
