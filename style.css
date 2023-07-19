@@ -1,6 +1,8 @@
 body{
-    margin: 0% 5% 0% 5%;
     font-family: 'poppins';
+}
+.container{
+    margin: 2% 7% 2% 7%;
 }
 
 /* Registration Page styling */
@@ -66,6 +68,7 @@ label{
     text-transform: uppercase;
 }
 
+
 .reg-btn{
     background-color: #03016c;
     font-family: 'poppins';
@@ -88,11 +91,13 @@ label{
 
 footer{
    max-width: 120%;
+   margin: 0px;
+   background-color:rgba(255, 228, 196, 0.7);
+   padding: 20px 0px 20px 0px;
 }
 
 .first-footer{
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 1em;
 }
