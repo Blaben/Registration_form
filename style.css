@@ -2,7 +2,37 @@ html{
     font-family: 'poppins';
 }
 .container{
-    margin: 2% 7% 2% 7%;
+    margin: 2% 7% 0% 7%;
+}
+
+/* styling the home page */
+.head-stuffs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    width: 200px;
+    height: auto;
+}
+
+/* This styling is made to style all items that has the { ul } element accros the site */
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    background-color: transparent;
+    gap: 2em;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #03016c;
+    word-spacing: 2em;
+}
+
+ul li a:hover{
+    border-bottom: 2px solid #e21012; 
 }
 
 /* Registration Page styling */
@@ -130,30 +160,9 @@ footer{
     
 }
 
-/* This styling is made to style the left part of the second footer */
-.left-items, ul{
-    display: inline-flex;
-    list-style-type: none;
-    background-color: transparent;
-    gap: 2em;
-}
 
 
-ul li a{
-    text-decoration: none;
-    color: #03016c;
-    word-spacing: 2em;
-}
 
-ul li a:hover{
-    border-bottom: 2px solid #e21012; 
-}
-
-
- /* .left-items{
-    float: left;
-    text-align: center;
-} */
 
 
 
