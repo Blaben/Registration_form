@@ -1,4 +1,4 @@
-body{
+html{
     font-family: 'poppins';
 }
 .container{
@@ -89,6 +89,8 @@ label{
 }
 
 
+/* styling the footer element */
+
 footer{
    max-width: 120%;
    margin: 0px;
@@ -105,6 +107,7 @@ footer{
 .copy-footer{
     color: grey;
     font-size: 12px;
+    text-align: center;
 }
 
 .sub-input{
@@ -118,20 +121,22 @@ footer{
 
 
 .second-footer{
-    gap: 30em;
-    text-align:  center;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    background-color: #d9d9df;
+    margin-top: 10px;
+    
+    
 }
 
-
-.left-items ul{
+/* This styling is made to style the left part of the second footer */
+.left-items, ul{
     display: inline-flex;
     list-style-type: none;
     background-color: transparent;
-    padding: 15px;
-    padding-left: 20%;
-    padding-right: 20%;
+    gap: 2em;
 }
-
 
 
 ul li a{
@@ -141,5 +146,14 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #e21012;
+    border-bottom: 2px solid #e21012; 
 }
+
+
+ /* .left-items{
+    float: left;
+    text-align: center;
+} */
+
+
+
