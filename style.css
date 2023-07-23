@@ -16,6 +16,12 @@ html{
     height: auto;
 }
 
+/*About Section Index.html file*/
+.main-about{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* This styling is made to style all items that has the { ul } element accros the site */
 ul{
     display: inline-flex;
