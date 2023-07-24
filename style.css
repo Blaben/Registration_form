@@ -3,6 +3,7 @@ html{
 }
 .container{
     margin: 2% 7% 0% 7%;
+    width: 85%;
 }
 
 /* styling the home page */
@@ -20,10 +21,33 @@ html{
 .main-about{
     display: flex;
     justify-content: space-between;
+    width: 950px;
+}
+
+
+.main-about-left{
+    width: 55%;
+}
+
+.sub-main-about-left{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+
+}
+
+.main-about-right{
+    width: 40%;
+
+}
+
+.main-about-right img{
+    width: 400px;
+    height: auto;
 }
 
 /* This styling is made to style all items that has the { ul } element accros the site */
-ul{
+.nav-items,.left-items ul{
     display: inline-flex;
     list-style-type: none;
     background-color: transparent;
@@ -31,13 +55,13 @@ ul{
 }
 
 
-ul li a{
+.nav-items,.left-items ul li a{
     text-decoration: none;
     color: #03016c;
     word-spacing: 2em;
 }
 
-ul li a:hover{
+.nav-items,.left-items ul li a:hover{
     border-bottom: 2px solid #e21012; 
 }
 
