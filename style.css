@@ -17,33 +17,59 @@ html{
     height: auto;
 }
 
-/*About Section Index.html file*/
+
+/*About Section Index.html file
+==========================================================*/
+
 .main-about{
+    margin: 0px;
     display: flex;
-    justify-content: space-between;
-    width: 950px;
+    width: 85%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    gap: 2em;
+}
+
+.main-about-left p{
+    border-bottom: 2px solid #03016c;
+    padding-bottom: 20px;
+    padding-top: 0px;
 }
 
 
 .main-about-left{
-    width: 55%;
+    width: 60%;
 }
 
 .sub-main-about-left{
     display: flex;
-    justify-content: space-between;
-    width: 55%;
+    gap: 3em;
+    padding: 0px;
+    margin: 0px;
+}
 
+ul.about-section-list{
+    /* list-style-type: circle; */
+    padding: 0px;
+    margin: 0px;
+}
+
+.sub-left h3, .sub-right h3{
+    margin: 0px;
+    font-size: 2rem;
+    color: #03016c;
 }
 
 .main-about-right{
-    width: 40%;
+    width: 35%;
+    margin: 0px;
 
 }
 
 .main-about-right img{
-    width: 400px;
+    width: 550px;
     height: auto;
+    
 }
 
 /* This styling is made to style all items that has the { ul } element accros the site */
