@@ -47,7 +47,7 @@ html{
 }
 
 /* This styling is made to style all items that has the { ul } element accros the site */
-.nav-items,.left-items ul{
+ul.common-styling{
     display: inline-flex;
     list-style-type: none;
     background-color: transparent;
@@ -55,13 +55,13 @@ html{
 }
 
 
-.nav-items,.left-items ul li a{
+ ul.common-styling li a{
     text-decoration: none;
     color: #03016c;
     word-spacing: 2em;
 }
 
-.nav-items,.left-items ul li a:hover{
+ul.common-styling li a:hover{
     border-bottom: 2px solid #e21012; 
 }
 
