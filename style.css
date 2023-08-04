@@ -26,7 +26,7 @@ html{
     display: flex;
     width: 85%;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     gap: 2em;
 }
 
@@ -70,6 +70,10 @@ ul.about-section-list{
     width: 550px;
     height: auto;
     
+}
+
+.main-hero{
+    background-color: #03016c;
 }
 
 /* This styling is made to style all items that has the { ul } element accros the site */
@@ -140,7 +144,7 @@ h2{
 input, select{
     font-family: 'poppins';
     font-size: 15px;
-    border:none;
+    border:hidden;
     background-color: none;
     border-bottom: 2px solid grey;
     width: 100%;
