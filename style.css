@@ -74,6 +74,8 @@ ul.about-section-list{
 
 .main-hero{
     background-color: #03016c;
+    margin-bottom: 5%;
+    height: 500px;
 }
 
 /* This styling is made to style all items that has the { ul } element accros the site */
