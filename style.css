@@ -72,6 +72,8 @@ ul.about-section-list{
     
 }
 
+/* Styling the Hero section of theh website */
+
 .main-hero{
     max-width: 85%;
     background-color: #03016c;
@@ -90,7 +92,7 @@ ul.about-section-list{
     color: white;
     margin-bottom: 30px;
 }
-.main-hero > h3{
+.main-hero>h3{
     font-size: 1.5rem;
     color: white;
 }
