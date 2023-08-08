@@ -76,6 +76,13 @@ ul.about-section-list{
     background-color: #03016c;
     margin-bottom: 5%;
     height: 500px;
+    text-align: center;
+    align-items: center;
+}
+
+.main-hero>h2,h3,p{
+    color: white;
+    margin: none;
 }
 
 /* This styling is made to style all items that has the { ul } element accros the site */
