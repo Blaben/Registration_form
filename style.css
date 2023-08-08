@@ -73,17 +73,35 @@ ul.about-section-list{
 }
 
 .main-hero{
+    max-width: 85%;
     background-color: #03016c;
     margin-bottom: 5%;
     height: 500px;
     text-align: center;
-    align-items: center;
+    padding: 0px 60px 60px 60px;
 }
 
-.main-hero>h2,h3,p{
+.main-hero>h2,p, h3{
     color: white;
     margin: none;
 }
+
+
+.steps{
+    display: inline-flex;
+    gap: 2em;
+    padding: 0px;
+    height: auto;
+    width: auto;
+
+}
+
+.step1, .step2, .step3{
+    background-color:#e28010;
+    padding: 15px;
+}
+
+
 
 /* This styling is made to style all items that has the { ul } element accros the site */
 ul.common-styling{
