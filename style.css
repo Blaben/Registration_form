@@ -13,7 +13,7 @@ html{
 }
 
 .logo-img {
-    width: 250px;
+    width: 300px;
     height: auto;
 }
 
@@ -78,7 +78,7 @@ ul.about-section-list{
     max-width: 85%;
     background-color: #03016c;
     margin: 5%;
-    height: 500px;
+    height: 600px;
     text-align: center;
     padding: 0px 60px 60px 60px;
 }
@@ -91,10 +91,6 @@ ul.about-section-list{
 .main-hero>p{
     color: white;
     margin-bottom: 30px;
-}
-.main-hero>h3{
-    font-size: 1.5rem;
-    color: white;
 }
 
 
@@ -109,9 +105,26 @@ ul.about-section-list{
 }
 
 .step1, .step2, .step3{
-    background-color:#e28010;
+    background-color:white;
     padding: 15px;
     border-radius: 20px;
+    height: 320px;
+}
+
+.steps p{
+    color:#03016c
+}
+
+.steps h3{
+    color: #e21012;
+    font-size: 1.5rem;
+}
+.steps a{
+    background-color: #03016c;
+    padding: 15px;
+    margin-top: 20%;
+    color: white;
+     
 }
 
 
