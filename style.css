@@ -75,16 +75,26 @@ ul.about-section-list{
 .main-hero{
     max-width: 85%;
     background-color: #03016c;
-    margin-bottom: 5%;
+    margin: 5%;
     height: 500px;
     text-align: center;
     padding: 0px 60px 60px 60px;
 }
 
-.main-hero>h2,p, h3{
+.main-hero>h2{
     color: white;
     margin: none;
 }
+
+.main-hero>p{
+    color: white;
+    margin-bottom: 30px;
+}
+.main-hero > h3{
+    font-size: 1.5rem;
+    color: white;
+}
+
 
 
 .steps{
@@ -99,6 +109,7 @@ ul.about-section-list{
 .step1, .step2, .step3{
     background-color:#e28010;
     padding: 15px;
+    border-radius: 20px;
 }
 
 
